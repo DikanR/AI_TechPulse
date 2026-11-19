@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "News App (Dev)",
+      "request": "launch",
+      "type": "dart",
+      "args": ["--dart-define-from-file=config/env.json"]
+    },
+    {
+      "name": "News App (Web Chrome)",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "-d",
+        "chrome",
+        "--dart-define-from-file=config/env.json"
+      ]
+    }
+  ]
+}
